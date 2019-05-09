@@ -221,8 +221,8 @@ public class PumpInfo implements Serializable {
     public String toString() {
         String output;
 
-        output = "\nCurrent Date: " + currentDate + "\nNumber of Days: " + String.valueOf(days.size())
-                + "\nSessions Today: " + String.valueOf(todayPumps.size());
+        output = "\nCurrent Date: " + currentDate + "\nNumber of Days: " + days.size()
+                + "\nSessions Today: " + todayPumps.size();
 
         return output;
     }

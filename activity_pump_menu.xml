@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/edit_entry_menu"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="67dp"
         android:layout_marginTop="350dp"
@@ -30,21 +30,21 @@
             android:textAlignment="center" />
 
         <LinearLayout
+            style='?android:attr/buttonBarStyle'
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            style='?android:attr/buttonBarStyle'
-            >
+            android:orientation="horizontal">
+
             <Button
-                style="?android:attr/buttonBarButtonStyle"
                 android:id="@+id/delete_button"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Delete" />
 
             <Button
-                style="?android:attr/buttonBarButtonStyle"
                 android:id="@+id/cancel_button"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cancel" />
@@ -63,10 +63,10 @@
         android:id="@+id/list_date_picker"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
         android:headerBackground="@color/colorPrimaryDark"
         android:paddingLeft="22dp"
         android:visibility="gone"></DatePicker>
