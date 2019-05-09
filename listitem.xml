@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:id="@+id/list_view_container"
+    android:paddingVertical="20dp"
+    >
+
+    <TextView
+        android:id="@+id/pumped_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".35"
+        android:gravity="left"
+        android:text="Time"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pumped_list_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".45"
+        android:gravity="left"
+        android:text="Oz Pumped"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/stored_list_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".20"
+        android:gravity="left"
+        android:text="Oz Frozen"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>
